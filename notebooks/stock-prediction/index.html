@@ -64,6 +64,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#creating-a-data-structure-with-90-timestamps-and-1-output" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -228,6 +233,8 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
+        
+      
       
       <a href="./" class="md-nav__link md-nav__link--active">
         Stock prediction
@@ -260,6 +267,8 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
+  
+    
   
   
 </nav>
@@ -307,10 +316,11 @@ array([[-0.58738015],
        [ 3.14825136],
        [ 3.09265006],
        [ 2.89739898]])
-
-
-
-X_train shape == (3332, 60, 5).
+</code></pre>
+<h1 id="creating-a-data-structure-with-90-timestamps-and-1-output">Creating a data structure with 90 timestamps and 1 output</h1>
+<h1 id="number-of-days-we-want-top-predict-into-the-future-is-90">Number of days we want top predict into the future is 90</h1>
+<h1 id="number-of-past-days-we-want-to-use-to-predict-the-future-is-60">Number of past days we want to use to predict the future is 60</h1>
+<pre><code>X_train shape == (3332, 60, 5).
 y_train shape == (3332, 1).
 
 
@@ -467,7 +477,7 @@ array([[-0.33394167],
        [ 3.09265006],
        [ 2.89739898]])
 </code></pre>
-<p><img alt="svg" src="../stock-prediction_files/stock-prediction_12_0.svg" /></p>
+<p><img alt="svg" src="../stock-prediction_files/stock-prediction_14_0.svg" /></p>
 <pre><code>Mean Absolute Error: 0.3041943613825069
 Mean Squared Error: 0.31919656165415916
 Root Mean Squared Error: 0.5649748327617428
