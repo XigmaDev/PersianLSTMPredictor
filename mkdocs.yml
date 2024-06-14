@@ -1,0 +1,6 @@
+site_name: Iran Stock Market Prediction NoteBook
+
+docs_dir: src
+
+theme:
+  name: material
